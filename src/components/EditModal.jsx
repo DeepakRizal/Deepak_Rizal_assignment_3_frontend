@@ -27,7 +27,7 @@ const EditModal = ({
 
   async function handleFormSubmit() {
     try {
-      const response = await fetch(url + `"/api/users/${id}`, {
+      const response = await fetch(url + `/api/users/${id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
